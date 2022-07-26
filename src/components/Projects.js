@@ -13,7 +13,7 @@ function Projects() {
   const nextSlide = () => {
     currentSlide !== slideLength ? setCurrentSlide(currentSlide + 1) : setCurrentSlide(0)
   }
-  
+
   return (
     <>
     <div className='bg-brand-teal/75 flex flex-col text-white items-center font-arimo text-center'>
@@ -38,4 +38,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Projects 
