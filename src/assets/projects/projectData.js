@@ -21,7 +21,7 @@ export const ProjectData = [
     url: 'https://mystic-allys-tarot-reading.netlify.app/',
     readMeUrl: 'https://github.com/alextheoklitou/sei-project-two',
     alt: 'mystic ally\'s tarot reading',
-    info: 'A hackathon style challenge built with React.js and an existing API. This app provides the user an opportunity to receive a tarot card reading.'
+    info: 'A hackathon style challenge built with React.js and an existing API. This app provides the user an opportunity to receive a tarot card reading while also being able to browse all the tarot cards and read their different meanings.'
   },
   {
     name: 'Space Invaders',
