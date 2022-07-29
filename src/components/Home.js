@@ -5,7 +5,7 @@ function Home() {
 
   return (
     <>
-    <div className="bg-brand-teal text-white flex flex-col items-center lg:pt-60 pt-10" id='home'>
+    <div className="bg-brand-teal text-white flex flex-col items-center lg:pt-60 mt-24 lg:mt-6 pt-10" id='home'>
       <div className="flex flex-col items-center">
         <h1 className="md:text-7xl pb-1 font-alice text-4xl">Alex Theoklitou</h1>
         <h3 className="text-xl text-brand-yellow font-arimo uppercase">Junior Software Engineer</h3>

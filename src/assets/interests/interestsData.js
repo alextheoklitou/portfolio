@@ -7,7 +7,7 @@ export const InterestsData = [
 },
 {
   name: 'Queer Activism',
-  info: 'When I\'m not doing an activiy at home or with my friends, I like to get involved with some queer activism. I was the Event Co-Chair for King\'s College London LGBTQ+ Staff Network where I would organise monthly educational events and socials to increase awareness on queer issues prominent in our community. Pictured you can see me marching in the \'Reclaim Pride\' march in July 2021.',
+  info: 'When I\'m not doing an activity at home or with my friends, I like to get involved with some queer activism. I was the Event Co-Chair for King\'s College London LGBTQ+ Staff Network where I would organise monthly educational events and socials to increase awareness on queer issues prominent in our community. Pictured you can see me marching in the \'Reclaim Pride\' march in July 2021.',
   imageUrl: 'https://i.imgur.com/GfNv0yZ.jpg?1',
   alt: 'me marching while holding a sign calling for LGBTQ+ conversion therapy to be banned'
 },

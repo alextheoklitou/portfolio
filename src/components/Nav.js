@@ -12,9 +12,9 @@ function Nav() {
   return (
     <>
       <nav className="nav-toggle flex justify-between px-20 py-3 text-white border-b-1 border-brand-light-teal sticky top-0 z-50">
-        <a href='#home' className='flex float-left'><img src={favicon} alt='logo' className='h-10 w-10'/>
+        <a href='/' className='flex float-left fixed float-left'><img src={favicon} alt='logo' className='h-20 w-20'/>
           </a>
-        <ul className="flex flex-row justify-around w-2/5 font-arimo uppercase">
+        <ul className="flex flex-row fixed right-0 justify-around w-2/5 font-arimo uppercase">
           <li className='hover:text-brand-yellow'><a href='#about'>About</a></li>
           <li className='hover:text-brand-yellow'><a href='#skills'>Skills</a></li>
           <li className='hover:text-brand-yellow'><a href='#projects'>Projects</a></li>
@@ -24,7 +24,7 @@ function Nav() {
       </nav>
       
       <nav className="nav burger-toggle inline z-50 text-white">
-        <div className="flex float-left m-3 pl-4 z-50">
+        <div className="flex float-left m-3 pl-4 z-50 fixed">
           <a href="/"><img src={favicon} alt="logo" className="h-20 w-20" /></a>
         </div>
         <div className="flex fixed right-0 burger-icon mt-6 h-20 w-20 z-50" onClick={handleSideBar}>
@@ -35,7 +35,7 @@ function Nav() {
             ? 'side-nav-menu-container active'
             : 'side-nav-menu-container'
         }>
-          <div onClick={handleSideBar} className='bg-brand-teal mr-4'>
+          <div onClick={handleSideBar} className='mr-4 font-arimo'>
             <div className="m-1">
               <a href="#about" className='hover:text-brand-yellow'>About</a>
             </div>

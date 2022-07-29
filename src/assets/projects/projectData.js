@@ -5,7 +5,7 @@ export const ProjectData = [
     url: 'https://paw-hub.netlify.app/',
     readMeUrl: 'https://github.com/alextheoklitou/sei-project-four-fe',
     alt: 'pawhub',
-    info: 'A full-stack app created with Python, Django, React.js & Tailwind. A clone of the website the Dogs Trust, this app will allow you to browse, favourite and leave comments on the dogs you like.'
+    info: 'A full-stack app created with Python, Django, React.js & Tailwind. A clone of the website the Dogs Trust, this app will allow you to browse and make an account to favourite and leave comments on the dogs you like.'
   },
   {
     name: 'Sniff',
@@ -16,7 +16,7 @@ export const ProjectData = [
     info: 'A full-stack MERN app - MongoDB, Express.js, React.js & Node.js with CRUD functionality. Just what 2022 needs - a dating app for animals. Here you can sign up, sign in & initiate chats with other animals on the app.'
   },
   {
-    name: 'Mystic Ally\'s Tarot Reading',
+    name: 'Mystic Ally',
     imageUrl: 'https://i.imgur.com/jtnJ1le.png?1',
     url: 'https://mystic-allys-tarot-reading.netlify.app/',
     readMeUrl: 'https://github.com/alextheoklitou/sei-project-two',
@@ -29,6 +29,6 @@ export const ProjectData = [
     url: 'https://alextheoklitou.github.io/sei-project-one/',
     readMeUrl: 'https://github.com/alextheoklitou/sei-project-one',
     alt: 'space invaders',
-    info: 'A grid based game built using vanilla JavaScript, HTML & CSS based on the original arcade game with a Lego theme. This was my first project built from scratch as part of the General Assembly Software Engineering Immersive Course.'
+    info: 'A grid based game built using vanilla JavaScript, HTML & CSS based on the original arcade game. This was my first project built from scratch as part of the General Assembly Software Engineering Immersive Course.'
   },
 ]
